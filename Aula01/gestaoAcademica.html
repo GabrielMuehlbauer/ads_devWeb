@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Acadêmica</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <p style="background-color: rgba(236, 161, 22, 0.74);">SISTEMA DE GESTÃO ACADÊMICA</p>
+            <p><b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b></p>
+            <table>
+                <tr>
+                    <th align="left"><label for="login">Login</label></th>
+                    <td><input type="name" id="login"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="password">Senha</label></th>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for=" status">Status</label></th>
+                    <td><select name="status" id="status">
+                            <option value="">Inativo</option>
+                            <option value="">Ativo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left">
+                        <label for="">Tipo</label>
+                    </th>
+                    <td>
+                        <input type="radio" name="tipo"> Técnico
+                        <input type="radio" name="tipo"> Professor
+                        <input type="radio" name="tipo"> Aluno
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="data">Data Criação</label></th>
+                    <td><input type="datetime" id="data"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="">Perfil</label></th>
+                    <td><input type="radio" name="perfil"> Convidado
+                        <input type="radio" name="perfil"> Administrador
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="observacao">Observações</label></th>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <th rowspan="2" align="left"><label for="">Módulos</label></th>
+                    <td>
+                        <input type="checkbox" name="Compras">Compras
+                        <input type="checkbox" name="Biblioteca">Biblioteca
+                        <input type="checkbox" name="Acadêmico">Acadêmico
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Documentacao">Documentação
+                        <input type="checkbox" name="rh">Recursos Humanos
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Excluir">
+        </fieldset>
+    </form>
+</body>
+
+</html>
