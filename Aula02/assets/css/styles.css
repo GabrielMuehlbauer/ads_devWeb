@@ -1,0 +1,26 @@
+.content {
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4caf50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    text-transform: initial;
+    text-indent: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    line-height: 130%
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
