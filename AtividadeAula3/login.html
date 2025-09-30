@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgba(52, 52, 102, 0.897);
+            border: 5px solid rgba(79, 79, 138, 0.897);
+            padding: 50px;
+        }
+
+        h1 {
+            color: white;
+            border-bottom: 1px solid white;
+            width: 80px;
+            margin-bottom: 80px;
+            padding: 2px 5px;
+        }
+
+        .content {
+            display: grid;
+        }
+        
+        .inputs {
+            text-align: justify;
+        }
+
+        .inputs div {
+            margin-top: 20px;
+        }
+        .inputs label {
+            color: white;
+        }
+ 
+        input {
+            width: 100%;
+            height: 30px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+            color: white;
+            font-size: 20px;
+        }
+
+        .buttons {
+            display: grid;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .login {
+            background-color: rgb(187, 87, 104);
+            padding: 20px 0;
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+    <div class="content">
+        <h1>Login</h1>
+        <div class="inputs">
+            <div class="input-user">
+                <label for="">Usuário</label> 
+                <input type="text">
+                <div class="input-password">
+                    <label for="">Senha</label>
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <a class="login" href="">login</a>
+            <a href="">Esqueceu a senha?</a>
+        </div>
+    </div>
+</body>
+
+</html>
